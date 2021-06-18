@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Album should fetch data after rendering 1`] = `
+<Album>
+  <div>
+    <p>
+      Loading Albums
+    </p>
+  </div>
+</Album>
+`;
+
+exports[`Album should render 1`] = `
+<div>
+  <p>
+    Loading Albums
+  </p>
+</div>
+`;
+
+exports[`renders App component 1`] = `
+<div
+  className="App"
+>
+  <Album />
+</div>
+`;
+
+exports[`renders Photo component 1`] = `
+<div
+  className="horizontal-scroll-div"
+>
+  <p>
+    Loading Photos
+  </p>
+</div>
+`;
