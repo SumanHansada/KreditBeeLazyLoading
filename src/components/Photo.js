@@ -1,15 +1,16 @@
-import React, { useState, useEffect } from 'react';
-import LazyLoad from 'react-lazy-load';
-import { Card } from 'react-bootstrap';
+import React, { useState, useEffect } from "react";
+import LazyLoad from "react-lazy-load";
+import { Card } from "react-bootstrap";
 
-function Photo(props) {
+const Photo = React.memo((props) => {
   const { albumId } = props;
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(false);
   const [photos, setPhotos] = useState([]);
 
   useEffect(() => {
-    fetch('http://jsonplaceholder.typicode.com/photos?albumId=' + albumId, {
-      method: 'GET',
+    setIsLoading(true);
+    fetch("http://jsonplaceholder.typicode.com/photos?albumId=" + albumId, {
+      method: "GET",
     })
       .then((res) => res.json())
       .then((response) => {
@@ -50,6 +51,6 @@ function Photo(props) {
         ))}
     </div>
   );
-}
+});
 
 export default Photo;

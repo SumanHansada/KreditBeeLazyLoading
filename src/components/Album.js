@@ -1,15 +1,16 @@
-import React, { useEffect, useState } from 'react';
-import { Card } from 'react-bootstrap';
-import Photo from './Photo';
-import LazyLoad from 'react-lazy-load';
+import React, { useEffect, useState } from "react";
+import { Card } from "react-bootstrap";
+import Photo from "./Photo";
+import LazyLoad from "react-lazy-load";
 
 function Album() {
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(false);
   const [albums, setAlbums] = useState([]);
 
   useEffect(() => {
-    fetch('http://jsonplaceholder.typicode.com/albums', {
-      method: 'GET',
+    setIsLoading(true);
+    fetch("http://jsonplaceholder.typicode.com/albums", {
+      method: "GET",
     })
       .then((res) => res.json())
       .then((response) => {
