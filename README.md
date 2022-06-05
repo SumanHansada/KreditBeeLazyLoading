@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+# Lazy Load Component using React
+
+This is a Lazy Load Component built with React!
+
+Checkout Demo Here! - [Lazy Load Demo](https://sumanhansada.github.io/KreditBeeLazyLoading/)
+
+---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
