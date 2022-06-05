@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/KreditBeeLazyLoading/static/css/main.d2d2d089.chunk.css",
+    "main.js": "/KreditBeeLazyLoading/static/js/main.9e9396b9.chunk.js",
+    "main.js.map": "/KreditBeeLazyLoading/static/js/main.9e9396b9.chunk.js.map",
+    "runtime-main.js": "/KreditBeeLazyLoading/static/js/runtime-main.b62a1967.js",
+    "runtime-main.js.map": "/KreditBeeLazyLoading/static/js/runtime-main.b62a1967.js.map",
+    "static/css/2.61b4cb56.chunk.css": "/KreditBeeLazyLoading/static/css/2.61b4cb56.chunk.css",
+    "static/js/2.23387643.chunk.js": "/KreditBeeLazyLoading/static/js/2.23387643.chunk.js",
+    "static/js/2.23387643.chunk.js.map": "/KreditBeeLazyLoading/static/js/2.23387643.chunk.js.map",
+    "static/js/3.02877926.chunk.js": "/KreditBeeLazyLoading/static/js/3.02877926.chunk.js",
+    "static/js/3.02877926.chunk.js.map": "/KreditBeeLazyLoading/static/js/3.02877926.chunk.js.map",
+    "index.html": "/KreditBeeLazyLoading/index.html",
+    "static/css/2.61b4cb56.chunk.css.map": "/KreditBeeLazyLoading/static/css/2.61b4cb56.chunk.css.map",
+    "static/css/main.d2d2d089.chunk.css.map": "/KreditBeeLazyLoading/static/css/main.d2d2d089.chunk.css.map",
+    "static/js/2.23387643.chunk.js.LICENSE.txt": "/KreditBeeLazyLoading/static/js/2.23387643.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b62a1967.js",
+    "static/css/2.61b4cb56.chunk.css",
+    "static/js/2.23387643.chunk.js",
+    "static/css/main.d2d2d089.chunk.css",
+    "static/js/main.9e9396b9.chunk.js"
+  ]
+}
