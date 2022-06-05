@@ -9,7 +9,7 @@ function Album() {
 
   useEffect(() => {
     setIsLoading(true);
-    fetch("http://jsonplaceholder.typicode.com/albums", {
+    fetch("https://jsonplaceholder.typicode.com/albums", {
       method: "GET",
     })
       .then((res) => res.json())

@@ -9,7 +9,7 @@ const Photo = React.memo((props) => {
 
   useEffect(() => {
     setIsLoading(true);
-    fetch("http://jsonplaceholder.typicode.com/photos?albumId=" + albumId, {
+    fetch("https://jsonplaceholder.typicode.com/photos?albumId=" + albumId, {
       method: "GET",
     })
       .then((res) => res.json())
