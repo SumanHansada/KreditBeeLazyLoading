@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/KreditBeeLazyLoading/static/css/main.d2d2d089.chunk.css",
-    "main.js": "/KreditBeeLazyLoading/static/js/main.9e9396b9.chunk.js",
-    "main.js.map": "/KreditBeeLazyLoading/static/js/main.9e9396b9.chunk.js.map",
+    "main.js": "/KreditBeeLazyLoading/static/js/main.1ab979e5.chunk.js",
+    "main.js.map": "/KreditBeeLazyLoading/static/js/main.1ab979e5.chunk.js.map",
     "runtime-main.js": "/KreditBeeLazyLoading/static/js/runtime-main.b62a1967.js",
     "runtime-main.js.map": "/KreditBeeLazyLoading/static/js/runtime-main.b62a1967.js.map",
     "static/css/2.61b4cb56.chunk.css": "/KreditBeeLazyLoading/static/css/2.61b4cb56.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.61b4cb56.chunk.css",
     "static/js/2.23387643.chunk.js",
     "static/css/main.d2d2d089.chunk.css",
-    "static/js/main.9e9396b9.chunk.js"
+    "static/js/main.1ab979e5.chunk.js"
   ]
 }
